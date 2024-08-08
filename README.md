@@ -37,12 +37,9 @@ This app is best used on a laptop or desktop computer. The design is straightfor
 2. **Set Up Firebase:**
    - Create a Firebase project in the [Firebase Console](https://console.firebase.google.com/).
    - Install Firebase in your project:
-     ```bash
-     npm install firebase
-     ```
+   - Get Firebase details from Firebase.
    - Initialize Firebase in your JavaScript file:
      ```javascript
-     import { initializeApp } from "firebase/app";
      const firebaseConfig = {
        apiKey: "your-api-key",
        authDomain: "your-auth-domain",
@@ -89,10 +86,10 @@ This app is best used on a laptop or desktop computer. The design is straightfor
 
 ### Author
 
-This project was created by [Your Name]. If you have any questions or feedback, you can reach me at [your email].
+This project was created by jinu. If you have any questions or feedback, you can reach me at jinu8683@gmail.com.
 
 ---
 
-This project is open-source and available on GitHub under the username [Your GitHub Username]. Feel free to use the code, but please respect the licensing terms.
+This project is open-source and available on GitHub under the username jinu721. Feel free to use the code, but please respect the licensing terms.
 
 ---
