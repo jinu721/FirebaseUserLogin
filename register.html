@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="style/style.css" title="" type="" />
+  </head>
+  <body>
+
+    <div id="bg-1">
+      <div class="section-header">
+        <h2 class="txt-header" id="txt-createAccount">Create Account</h2>
+        <h6 class="txt-header" id="txt-joinCommunity">
+          Join the community by creating your account now
+        </h6>
+      </div>
+      <div id="section-input">
+        <input class="inp" id="inp-email" type="text" placeholder="E-mail" />
+        <input class="inp" id="inp-pass" type="password" placeholder="Password" />
+      </div>
+      <div class="section-button">
+        <div class="btn-reg" id="btn-continue" >
+          <p id="txt-btn1" >Continue</p>
+          <div id="loader-continue" class="loader-bar"></div>
+        </div>
+      </div>
+      <p class="txt-bottom" id="txt-aleardyHave" >Already have an account?</p>
+    </div>
+
+    <div id="bg-2">
+        <div class="section-header">
+           <a id="img-delete" href=""><i class="fa-solid fa-trash fa-xs" style="color: #dd441e;"></i></i></i></a>
+           <h2 class="txt-header" id="txt-createAccount" >Complete Your Profile</h2>
+           <h6 class="txt-header" id="txt-joinCommunity" >Complete your account setup now by completing the <br>following steps </h6>
+        </div>
+        <div id="section-imageAndInput">
+            <input type="file" id="image-picker" accept="image/*">
+            <img  id="img-profile" src="images/icon_user_profile.png" alt="">
+            <img id="img-add" src="images/add_image.png" alt="">
+            <div id="section-inp">
+                <input id="inp-nickname" placeholder="Nickname" type="text" class="inp-2">
+                <input id="inp-username" placeholder="Username" type="text" class="inp-2">
+            </div>
+        </div>
+        <div class="section-button" >
+            <div class="btn-reg" id="btn-register" >
+              <p id="txt-btn2" >Register</p>
+              <div id="loader-register" class="loader-bar"></div>
+            </div> 
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/8.2.2/firebase.min.js"></script>
+    <script src="js/firebase.js" ></script>
+    <script src="js/register.js" ></script>
+    
+  </body>
+</html>
